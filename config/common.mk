@@ -45,10 +45,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/purity/prebuilt/etc/apns-conf.xml:system/etc/apns-conf.xml
 
-# Boot Animation
-PRODUCT_COPY_FILES += \
-    vendor/purity/prebuilt/bootanimation/bootanimation.zip:system/media/bootanimation.zip
-
 # Gapps backup script
 PRODUCT_COPY_FILES += \
     vendor/purity/prebuilt/bin/backuptool.sh:system/bin/backuptool.sh \

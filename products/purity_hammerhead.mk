@@ -36,4 +36,8 @@ TARGET_KERNEL_CONFIG := purity_hammerhead_defconfig
 PRODUCT_COPY_FILES += \
     vendor/purity/prebuilt/apk/Torch.apk:system/app/Torch.apk
 
+# Boot Animation
+PRODUCT_COPY_FILES += \
+    vendor/purity/prebuilt/bootanimation/bootanimation_1080.zip:system/media/bootanimation.zip
+
 endif

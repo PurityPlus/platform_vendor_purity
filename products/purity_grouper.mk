@@ -29,4 +29,8 @@ PRODUCT_MANUFACTURER := Asus
 PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=nakasi BUILD_FINGERPRINT=google/nakasi/grouper:4.4.2/KOT49H/937116:user/release-keys
 PRIVATE_BUILD_DESC="nakasi-user 4.4.2 KOT49H 937116 release-keys"
 
+# Boot Animation
+PRODUCT_COPY_FILES += \
+    vendor/purity/prebuilt/bootanimation/bootanimation.zip:system/media/bootanimation.zip
+
 endif

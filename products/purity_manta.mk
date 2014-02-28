@@ -31,4 +31,8 @@ PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=mantaray BUILD_FINGERPRINT="google/
 PRODUCT_COPY_FILES += \
     vendor/purity/prebuilt/apk/Torch.apk:system/app/Torch.apk
 
+# Boot Animation
+PRODUCT_COPY_FILES += \
+    vendor/purity/prebuilt/bootanimation/bootanimation.zip:system/media/bootanimation.zip
+
 endif
