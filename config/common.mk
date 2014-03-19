@@ -25,6 +25,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     windowsmgr.max_events_per_sec=240 \
     ro.kernel.android.checkjni=0
 
+# Disable GC freed lines
+PRODUCT_PROPERTY_OVERRIDES += \
+    dalvik.vm.debug.alloc=0
+
 # Include overlays
 PRODUCT_PACKAGE_OVERLAYS += vendor/purity/overlay/common
 PRODUCT_PACKAGE_OVERLAYS += vendor/purity/overlay/$(TARGET_PRODUCT)
