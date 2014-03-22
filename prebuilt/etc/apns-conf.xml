@@ -7,7 +7,7 @@
 ** you may not use this file except in compliance with the License.
 ** You may obtain a copy of the License at
 **
-**     http://www.apache.org/licenses/LICENSE-2.0
+** http://www.apache.org/licenses/LICENSE-2.0
 **
 ** Unless required by applicable law or agreed to in writing, software
 ** distributed under the License is distributed on an "AS IS" BASIS,
@@ -668,7 +668,7 @@
   <apn carrier="LTE ADMIN" mcc="311" mnc="230" apn="admin.cs4glte.com" type="fota" user="" password="" mmsc="http://pix.cspire.com/servlets/mms" mmsproxy = "66.175.144.91" mmsport = "80" protocol="IP" roaming_protocol="IP" bearer="14" />
   <apn carrier="LTE Tethering" mcc="311" mnc="230" apn="tethering.cs4glte.com" type="tethering" user="" password="" mmsc="http://pix.cspire.com/servlets/mms" mmsproxy = "66.175.144.91" mmsport = "80" protocol="IP" roaming_protocol="IP" bearer="14" />
   <apn carrier="EHRPD INTERNET" mcc="311" mnc="230" apn="Internet.cs4glte.com" user="" password="" type="default,dun,mms" authtype="0" mmsc="http://pix.cspire.com/servlets/mms" mmsproxy = "66.175.144.91" mmsport = "80" protocol="IP" roaming_protocol="IP" bearer="13" />
-  <apn carrier="EHRPD IMS" mcc="311" mnc="230" apn="ims.cs4glte.com" type="ims" user="" password="" mmsc="http://pix.cspire.com/servlets/mms" mmsproxy = "66.175.144.91" mmsport = "80" protocol="IP"  roaming_protocol="IP" bearer="13" />
+  <apn carrier="EHRPD IMS" mcc="311" mnc="230" apn="ims.cs4glte.com" type="ims" user="" password="" mmsc="http://pix.cspire.com/servlets/mms" mmsproxy = "66.175.144.91" mmsport = "80" protocol="IP" roaming_protocol="IP" bearer="13" />
   <apn carrier="EHRPD ADMIN" mcc="311" mnc="230" apn="admin.cs4glte.com" type="fota" user="" password="" mmsc="http://pix.cspire.com/servlets/mms" mmsproxy = "66.175.144.91" mmsport = "80" protocol="IP" roaming_protocol="IP" bearer="13" />
   <apn carrier="EHRPD Tethering" mcc="311" mnc="230" apn="tethering.cs4glte.com" type="tethering" user="" password="" mmsc="http://pix.cspire.com/servlets/mms" mmsproxy = "66.175.144.91" mmsport = "80" protocol="IP" roaming_protocol="IP" bearer="13" />
   <apn carrier="GCI Data" mcc="311" mnc="370" apn="web.gci" type="default,supl" />
@@ -678,15 +678,15 @@
   <apn carrier="LTE - Verizon IMS" mcc="311" mnc="480" apn="VZWIMS" type="ims" protocol="IPV4V6" roaming_protocol="IPV4V6" bearer="14" />
   <apn carrier="LTE - Verizon CBS" mcc="311" mnc="480" apn="VZWAPP" type="cbs,mms" mmsc="http://mms.vtext.com/servlets/mms" protocol="IPV4V6" roaming_protocol="IPV4V6" bearer="14" />
   <apn carrier="LTE - Verizon SUPL" mcc="311" mnc="480" apn="VZW800" type="supl" protocol="IPV4V6" bearer="14" />
-  <apn carrier="EHRPD - Verizon Internet" mcc="311" mnc="480" apn="VZWINTERNET" type="default,dun" protocol="IPV4V6" roaming_protocol="IPV4V6" bearer="13"  />
-  <apn carrier="EHRPD - Verizon FOTA"  mcc="311" mnc="480" apn="VZWADMIN" type="fota" protocol="IPV4V6" roaming_protocol="IPV4V6" bearer="13" />
+  <apn carrier="EHRPD - Verizon Internet" mcc="311" mnc="480" apn="VZWINTERNET" type="default,dun" protocol="IPV4V6" roaming_protocol="IPV4V6" bearer="13" />
+  <apn carrier="EHRPD - Verizon FOTA" mcc="311" mnc="480" apn="VZWADMIN" type="fota" protocol="IPV4V6" roaming_protocol="IPV4V6" bearer="13" />
   <apn carrier="EHRPD - Verizon IMS" mcc="311" mnc="480" apn="VZWIMS" type="ims" protocol="IPV4V6" roaming_protocol="IPV4V6" bearer="13" />
   <apn carrier="EHRPD - Verizon CBS" mcc="311" mnc="480" apn="VZWAPP" type="cbs,mms" mmsc="http://mms.vtext.com/servlets/mms" protocol="IPV4V6" roaming_protocol="IPV4V6" bearer="13" />
   <apn carrier="EHRPD - Verizon SUPL" mcc="311" mnc="480" apn="VZW800" type="supl" protocol="IPV4V6" bearer="13" />
   <apn carrier="Virgin Mobile US" mcc="311" mnc="490" apn="0" mmsproxy="205.239.233.136" mmsport="81" mmsc="http://mmsc.vmobl.com:8088/mms?" port="" type="mms" />
   <apn carrier="LTE - USCC INTERNET" mcc="311" mnc="580" apn="usccinternet" type="default,dun,mms,fota" mmsc="http://mmsc1.uscc.net/mmsc/MMS" protocol="IPV4V6" roaming_protocol="IPV4V6" bearer="14" />
   <apn carrier="MetroPCS DEFAULT" mcc="311" mnc="660" apn="internet.metropcs" user="" password="" type="default,hipri,admin,mms" authtype="0" mmsc="http://mms.metropcs.net:3128/mmsc" protocol="IP" roaming_protocol="IP" bearer="14" inactivity_timer="7080" />
-  <apn carrier="MetroPCS IMS"  mcc="311" mnc="660" apn="ims.metropcs" user="" password="" type="ims" authtype="0" mmsc="http://mms.metropcs.net:3128/mmsc" protocol="IP" roaming_protocol="IP" bearer="14" inactivity_timer="7080" />
+  <apn carrier="MetroPCS IMS" mcc="311" mnc="660" apn="ims.metropcs" user="" password="" type="ims" authtype="0" mmsc="http://mms.metropcs.net:3128/mmsc" protocol="IP" roaming_protocol="IP" bearer="14" inactivity_timer="7080" />
   <apn carrier="Claro PR" mcc="330" mnc="110" apn="internet.claropr.com" port="8080" type="default,supl" />
   <apn carrier="Claro PR MMS" mcc="330" mnc="110" apn="mms.claropr.com" mmsc="http://mmsg.claropr.com:1021/mmsc" mmsproxy="10.50.38.3" mmsport="8799" type="mms" />
   <apn carrier="LTE CLARO" mcc="330" mnc="110" apn="lte.claropr.com" authtype="1" type="default,supl" />
@@ -1064,7 +1064,7 @@
   <apn carrier="mtc touch MMS" mcc="415" mnc="03" apn="mms.mtctouch.com.lb" user="mtctouch" mmsc="http://mms:8080/mms/" mmsproxy="192.168.4.103" mmsport="9201" type="mms" />
   <apn carrier="Alfa WAP" mcc="415" mnc="03" apn="wap.mic1.com.lb" user="mic1" password="mic1" proxy="192.168.023.050" port="80" type="default,supl" />
   <apn carrier="Zain JO Postpaid" mcc="416" mnc="01" apn="internet" type="default,supl" />
-  <apn carrier="Zain JO Prepaid" mcc="416" mnc="01" apn="internetpre"  user="zain" password="zain" type="default,supl" />
+  <apn carrier="Zain JO Prepaid" mcc="416" mnc="01" apn="internetpre" user="zain" password="zain" type="default,supl" />
   <apn carrier="Zain JO WAP" mcc="416" mnc="01" apn="zain" user="zain" password="zain" proxy="192.168.55.10" port="80" type="default,supl" />
   <apn carrier="Zain JO Internet" mcc="416" mnc="01" apn="zain" user="zain" password="zain" type="default,supl" />
   <apn carrier="Zain JO MMS" mcc="416" mnc="01" apn="mms" user="mms" password="mms" mmsc="http://mms.jo.zain.com" mmsproxy="192.168.55.10" mmsport="80" type="mms" />
@@ -1126,18 +1126,18 @@
   <apn carrier="Vodafone QA" mcc="427" mnc="02" apn="web.vodafone.com.qa" type="default,supl" />
   <apn carrier="Beeline UZ" mcc="434" mnc="04" apn="internet.beeline.uz" user="beeline" password="beeline" type="default,supl" />
   <apn carrier="Beeline UZ MMS" mcc="434" mnc="04" apn="mms.beeline.uz" user="beeline" password="beeline" mmsc="http://mms" mmsproxy="172.30.30.166" mmsport="8080" type="mms" />
-  <apn carrier="NTT Docomo(bizho)" mcc="440" mnc="10" apn="mpr2.bizho.net" type="default,supl,mms" />
-  <apn carrier="NTT Docomo(mopera)" mcc="440" mnc="10" apn="mopera.net" type="default,supl,mms" />
-  <apn carrier="NTT Docomo(flat)" mcc="440" mnc="10" apn="mopera.flat.foma.ne.jp" type="default,supl,mms" />
-  <apn carrier="NTT Docomo(128k)" mcc="440" mnc="10" apn="mpr.ex-pkt.net" type="default,supl,mms" />
-  <apn carrier="NTT Docomo(mopera ff)" mcc="440" mnc="10" apn="open.mopera.net" type="default,supl,mms" />
-  <apn carrier="NTT Docomo(spmode)" mcc="440" mnc="10" apn="spmode.ne.jp" type="default,supl" />
-  <apn carrier="b-mobile(sumaho)" mcc="440" mnc="10" apn="bmobile.ne.jp" user="bmobile@spd" password="bmobile" type="default,supl,mms" />
-  <apn carrier="Softbank(open)" mcc="440" mnc="20" apn="open.softbank.ne.jp" user="opensoftbank" password="ebMNuX1FIHg9d3DA" mmsc="http://mms/" mmsproxy="mmsopen.softbank.ne.jp" mmsport="8080" type="default,supl,mms" />
-  <apn carrier="Softbank(smile.world)" mcc="440" mnc="20" apn="smile.world" user="dna1trop" password="so2t3k3m2a" mmsc="http://mms/" mmsproxy="smilemms.softbank.ne.jp" mmsport="8080" type="default,supl,mms" />
-  <apn carrier="Softbank(desire)" mcc="440" mnc="20" apn="open.softbank.ne.jp" user="softbankX06HT" password="KfNSDrQQs2AtFQ9M" mmsc="http://mms/" mmsproxy="andmms.softbank.ne.jp" mmsport="8080" type="default,supl,mms" />
-  <apn carrier="Softbank(datasim)" mcc="440" mnc="20" apn="softbank" user="ai@softbank" password="softbank" type="default,supl" />
-  <apn carrier="Softbank(internet)" mcc="420" mnc="20" apn="andglobal.softbank.ne.jp" user="andg001softbank" password="pumbbghkpgyysxa" mmsc="http://mms/" mmsproxy="andmms.softbank.ne.jp" mmsport="8080" type="default,mms" />
+  <apn carrier="spモード" mcc="440" mnc="10" apn="spmode.ne.jp" type="default,supl" />
+  <apn carrier="mopera U" mcc="440" mnc="10" apn="mopera.net" type="default,supl,mms" />
+  <apn carrier="mopera U FF" mcc="440" mnc="10" apn="open.mopera.net" type="default,supl,mms" />
+  <apn carrier="mopera U Bizho" mcc="440" mnc="10" apn="mpr2.bizho.net" type="default,supl,mms" />
+  <apn carrier="mopera U Flat" mcc="440" mnc="10" apn="mopera.flat.foma.ne.jp" type="default,supl,mms" />
+  <apn carrier="mopera U 128K" mcc="440" mnc="10" apn="mpr.ex-pkt.net" type="default,supl,mms" />
+  <apn carrier="b-mobile スマホ電話" mcc="440" mnc="10" apn="bmobile.ne.jp" user="bmobile@spd" password="bmobile" type="default,supl,mms" />
+  <apn carrier="SoftBank 3G Open" mcc="440" mnc="20" apn="open.softbank.ne.jp" user="opensoftbank" password="ebMNuX1FIHg9d3DA" mmsc="http://mms/" mmsproxy="mmsopen.softbank.ne.jp" mmsport="8080" type="default,supl,mms" />
+  <apn carrier="SoftBank 3G Desire" mcc="440" mnc="20" apn="open.softbank.ne.jp" user="softbankX06HT" password="KfNSDrQQs2AtFQ9M" mmsc="http://mms/" mmsproxy="andmms.softbank.ne.jp" mmsport="8080" type="default,supl,mms" />
+  <apn carrier="SoftBank 3G Smile World" mcc="440" mnc="20" apn="smile.world" user="dna1trop" password="so2t3k3m2a" mmsc="http://mms/" mmsproxy="smilemms.softbank.ne.jp" mmsport="8080" type="default,supl,mms" />
+  <apn carrier="SoftBank 3G Andglobal" mcc="440" mnc="20" apn="andglobal.softbank.ne.jp" user="andg001softbank" password="pumbbghkpgyysxa" mmsc="http://mms/" mmsproxy="andmms.softbank.ne.jp" mmsport="8080" type="default,mms" />
+  <apn carrier="SoftBank 3G Pay for Use" mcc="440" mnc="20" apn="softbank" user="ai@softbank" password="softbank" type="default,supl" />
   <apn carrier="SKT3G" mcc="450" mnc="05" apn="web.sktelecom.com" mmsc="http://omms.nate.com:9082/oma_mms" mmsproxy="smart.nate.com" mmsport="9093" type="default,supl,mms" />
   <apn carrier="SK Telecom (Roaming)" mcc="450" mnc="05" apn="roaming.sktelecom.com" server="*" mmsc="vmms.nate.com" mmsport="8082" type="default,supl,mms" />
   <apn carrier="SKT LTE" mcc="450" mnc="05" apn="lte.sktelecom.com" mmsc="http//omms.nate.com:9082/oma_mms" mmsproxy="smart.nate.com" mmsport="9093" type="defaul,supl,mms" />
@@ -1524,4 +1524,3 @@
   <apn carrier="Claro PA" apn="web.claro.com.pa" user="CLAROWEB" pass="CLAROWEB" type="default,supl" />
   <apn carrier="Digicel PA" apn="web.digicelpanama.com" type="default,supl"/>
 </apns>
-
