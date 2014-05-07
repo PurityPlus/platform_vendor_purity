@@ -33,9 +33,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=hammerhead BUILD_FINGERPRINT="googl
 TARGET_KERNEL_SOURCE := kernel/lge/hammerhead
 TARGET_KERNEL_CONFIG := purity_hammerhead_defconfig
 
-PRODUCT_COPY_FILES += \
-    vendor/purity/prebuilt/apk/Torch.apk:system/app/Torch.apk
-
 # Boot Animation
 PRODUCT_COPY_FILES += \
     vendor/purity/prebuilt/bootanimation/bootanimation_1080.zip:system/media/bootanimation.zip
