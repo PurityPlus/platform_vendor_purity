@@ -23,11 +23,10 @@ $(call inherit-product, device/asus/grouper/full_grouper.mk)
 
 # Override AOSP build properties
 PRODUCT_NAME := purity_grouper
-PRODUCT_BRAND := Google
-PRODUCT_MODEL := Nexus 7
-PRODUCT_MANUFACTURER := Asus
-PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=nakasi BUILD_FINGERPRINT="google/nakasi/grouper:4.4.2/KOT49H/937116:user/release-keys"
-PRIVATE_BUILD_DESC="nakasi-user 4.4.2 KOT49H 937116 release-keys"
+PRODUCT_BRAND := google
+PRODUCT_MODEL := nexus 7
+PRODUCT_MANUFACTURER := asus
+PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=nakasi BUILD_FINGERPRINT="google/nakasi/grouper:4.4.3/KTU84L/1148727:user/release-keys" PRIVATE_BUILD_DESC="nakasi-user 4.4.3 KTU84L 1148727 release-keys"
 
 # Boot Animation
 PRODUCT_COPY_FILES += \
