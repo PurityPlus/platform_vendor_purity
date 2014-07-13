@@ -57,6 +57,12 @@ PRODUCT_COPY_FILES += \
 # T-Mobile theme engine
 include vendor/purity/config/themes_common.mk
 
+# DSPManager
+PRODUCT_PACKAGES += \
+    DSPManager \
+    libcyanogen-dsp \
+    audio_effects.conf
+
 # Enable SIP+VoIP
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.software.sip.voip.xml:system/etc/permissions/android.software.sip.voip.xml
